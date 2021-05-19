@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"github.com/ghodss/yaml"
-	"github.com/go-openapi/spec"
+	"k8s.io/kube-openapi/pkg/validation/spec"
 	"github.com/pkg/errors"
 	"k8s.io/kube-openapi/pkg/common"
 	"sigs.k8s.io/kustomize/pkg/gvk"
